@@ -1,24 +1,17 @@
 :root {
   --gradient: linear-gradient(
     to right,
-    #4d0830,
-    #6e043a,
-    #910040,
-    #b40042,
-    #d6003e,
-    #dc003d,
-    #e1003b,
-    #e70139,
-    #d4003d,
-    #c00040,
-    #ac0041,
-    #970340
+    #dbe91c,
+    #f4e271,
+    #f6e056,
+    #cdca35,
+    #d0ba0f
   );
 }
 
 .gradient-animation {
   background-size: 600%;
-  background-image: var(--gradient);
+  bargb(183, 166, 5)d-image: var(--gradient);
   animation: bg-animation 90s infinite alternate;
 }
 
