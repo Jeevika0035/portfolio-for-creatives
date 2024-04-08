@@ -653,9 +653,6 @@ a:active {
   place-items: center;
 }
 
-.error-page-wrapper {
-}
-
 .error-page-inner-container {
   text-align: center;
 }
@@ -676,9 +673,6 @@ a:active {
 .play-page {
   display: grid;
   place-items: center;
-}
-
-.play-page-wrapper {
 }
 
 .play-page-inner-container {
@@ -740,9 +734,6 @@ a:active {
   text-align: center;
 }
 
-.sub-navigation-item {
-}
-
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
@@ -782,16 +773,6 @@ a.sub-navigation-link:hover {
 
 #heyday-logo-blue {
   animation: rotation 9s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
 }
 
 /*
